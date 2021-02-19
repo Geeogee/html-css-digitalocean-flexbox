@@ -17,7 +17,7 @@
 
   <!-- Header -->
   <header>
-    <nav class="center-container">
+    <nav>
 
       <div class="logo-container">
         <img id="logo-image" src="img/logo.png" alt="Digital Ocean Logo">
@@ -135,7 +135,9 @@
       </ul>
 
       <div class="hamburger">
-        <i class="fas fa-bars"></i>
+        <a href="#">
+          <i class="fas fa-bars"></i>
+        </a>
       </div>
 
 
@@ -147,7 +149,43 @@
   <main>
 
     <!-- Section Jumbotron -->
-    <section>
+    <section class="section-jumbotron">
+      <div class="center-container">
+        <div class="column text-container">
+          <h1 class="white-text">
+            The simplest cloud platform for developers &amp; teams.
+          </h1>
+          <p class="small-text lightblue-text">
+            Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one digital machine or ten thousand.
+          </p>
+        </div>
+
+        <div class="column login-panel">
+          <h3 class="darkblue-text">
+            Deploy your app in second.
+          </h3>
+
+          <h3 class="blue-text">
+            Get started now.
+          </h3>
+
+          <form>
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <a class="btn-link new-account" href="#" role="button">
+              Create your account
+            </a>
+            <a class="btn-link sign-up" href="#" role="button">
+              <img id="google-icon" src="img/google-icon.png">
+              Sign up with Google
+            </a>
+            <div class="small-text darkblue-text text-center">
+              By signin up you agree to the <a class="blue-text" href="#">Term of service</a>
+            </div>
+          </form>
+
+        </div>
+      </div>
     </section>
 
     <!-- Section Customers logo -->
@@ -160,6 +198,11 @@
 
     <!-- Section target -->
     <section>
+      <div class="center-container">
+        <h3 class="darkblue-text">
+          Designed for developers
+        </h3>
+      </div>
     </section>
 
     <!-- Section features -->
