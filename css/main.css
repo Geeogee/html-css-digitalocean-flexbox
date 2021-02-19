@@ -198,14 +198,18 @@ nav .hamburger .fa-bars {
 }
 
 .section-jumbotron .column {
-  flex-basis: 50%;
   padding: 20px;
 }
 
-.column.login-panel {
+.section-jumbotron .column.text-container {
+  flex: 0 2 auto;
+}
+
+.section-jumbotron .column.login-panel {
   background-color: #FFF;
   border-radius: 20px;
   text-align: center;
+  flex: 1 1 auto;
 }
 
 .section-jumbotron .login-panel input {
@@ -256,8 +260,14 @@ nav .hamburger .fa-bars {
 
 /* Section target */
 .section-target {
+  background-color: #f3f5f9;
   text-align: center;
   padding: 30px 0;
+}
+
+.section-target h3,
+.section-target p {
+  padding: 10px 0;
 }
 
 .section-target .slide-show {
@@ -274,7 +284,6 @@ nav .hamburger .fa-bars {
   flex-basis: 30%;
 }
 
-
 .section-target .slide-show .box-image img {
   max-width: 100%;
 }
@@ -286,6 +295,21 @@ nav .hamburger .fa-bars {
 
 .arrow-back {
   color: #6f7b97;
+}
+
+.slide-points {
+  display: flex;
+  justify-content: center;
+}
+
+.slide-points .point {
+  display: inline-block;
+  margin: 20px 2px;
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border: 2px solid #006aff;
+  border-radius: 50%;
 }
 
 
